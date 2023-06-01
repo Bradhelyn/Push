@@ -12,13 +12,13 @@ push.setVapidDetails(
   );
 
 let sub = {
-  endpoint:'https://fcm.googleapis.com/fcm/send/ddhCiajaQLQ:APA91bEfm8F9sEQAvFLhirZRCo-liXF7skW4WDE0BtpCZamjGAfVdscZyeSdeR8z1roQADCpWBIh6OCjTShTs2izSdomvqMVW7AYDnm9Op-nPS3cul29iGPsxh93uTrygjBQP3AgrmNU',
+  endpoint:'https://fcm.googleapis.com/fcm/send/fZ-wJP28b1w:APA91bFiQtLvBnScN4VYfy2s-b2dVS5ORZrYxaeZzO2LZMabtPlASGlOJdmZT2SBSP2lJsB-1rXq8zGA1ijzEWOIAJ5k2q5rtCqtwn7KgPrd-fEWm8vS7dw5aLkQOGZ5BS3xiOFp2s9b',
   expirationTime:null,
   keys:{
-    p256dh:'BHGXeoaq6n0WLY4ePu05RHASsQra1FPNTPt11gOfc4_jQQ2wI3LrjPyIGjQ4IE20ub0Zu7ymwrXzy4e2nDwbcag',
-    auth:'MZcXML9RGoCpY2-vHjkFPQ'
+    p256dh:'BHR4HiNYxjuIQH3zLJZr6GjciGOpaf8Aq333Warhq2VKtLYz38le8FCpEUGAtf0JWdsCuBx1Qzp-xrw7ij_EY4o',
+    auth:'grX94vrFZRh17_pPYdrEbg'
   }
-}
+};
 
 push.sendNotification(sub, 'test message')
 
