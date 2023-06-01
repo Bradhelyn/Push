@@ -6,7 +6,7 @@ let vapidKeys = {
 }
 
 push.setVapidDetails(
-  'malito: test@.co.uk', 
+  'malito:test@.code.co.uk', 
   vapidKeys.publicKey,
   vapidKeys.privateKey
   );
